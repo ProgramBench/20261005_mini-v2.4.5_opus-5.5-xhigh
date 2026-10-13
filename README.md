@@ -13,15 +13,10 @@
 
 ## Task accounting
 
-195 tasks are evaluated and included here. Five are scored 0 and have no directory:
-`eliukblau__pixterm`, `facebook__zstd`, and `ip7z__7zip` produced no submission after repeated
-attempts; `osgeo__proj` and `tukaani-project__xz` were still running at the release cutoff.
-
-Rollouts that failed on provider/infrastructure errors were retried, and each task ships the
-trajectory and solution of the attempt that was scored. Six tasks (`alexpovel__srgn`,
-`bellard__quickjs`, `chirlu__sox`, `rochacbruno__marmite`, `rvben__rumdl`,
-`sayanarijit__xplr`) hit the ~1M-token context limit without submitting; their workspaces were
-snapshotted and evaluated as-is, and their trajectories end without an exit status.
+195 tasks are evaluated and included here; the other five produced no gradeable submission and
+score 0. Rollouts that failed on provider/infrastructure errors were retried, and each task ships
+the trajectory and solution of the attempt that was scored. Rollouts that hit the context limit
+without submitting had their final workspace evaluated as-is.
 
 ## Extra stats
 
